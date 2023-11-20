@@ -11,5 +11,6 @@ tasks:
 
 - name: Gather Pre-patching output from the servers
   yum:
+    name:
 
 
