@@ -4,8 +4,12 @@ gather_facts: yes
 become: yes
 tasks:
 - name: Gather Pre-patching output from the servers
+  yum:
+
 - name: Patch the servers
+  yum:
 
 - name: Gather Pre-patching output from the servers
+  yum:
 
 
