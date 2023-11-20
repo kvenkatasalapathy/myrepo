@@ -1,0 +1,11 @@
+name: Playbook to Patch the Linux Cluster
+hosts: all
+gather_facts: yes
+become: yes
+tasks:
+- name: Gather Pre-patching output from the servers
+- name: Patch the servers
+
+- name: Gather Pre-patching output from the servers
+
+
